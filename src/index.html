@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 11</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="search-container">
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="gallery-container">
+      <div class="gallery"></div>
+      <div class="load-more-btn">
+        <button type="button" class="load-more is-hidden">Load more</button>
+      </div>
+      <a class="btn-to-top" title="Return to top">
+        <svg class="icon icon-circle-up">
+          <use xlink:href="#icon-circle-up">
+            <symbol id="icon-circle-up" viewBox="0 0 32 32">
+              <path
+                d="M0 16c0 8.837 7.163 16 16 16s16-7.163 16-16-7.163-16-16-16-16 7.163-16 16zM29 16c0 7.18-5.82 13-13 13s-13-5.82-13-13 5.82-13 13-13 13 5.82 13 13z"
+              ></path>
+              <path
+                d="M22.086 20.914l2.829-2.829-8.914-8.914-8.914 8.914 2.828 2.828 6.086-6.086z"
+              ></path>
+            </symbol>
+          </use></svg
+      ></a>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

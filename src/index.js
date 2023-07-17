@@ -131,3 +131,5 @@ function onToTopBtn() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
+onScroll();
+onToTopBtn();
